@@ -22,8 +22,8 @@ const data = {
 };
 
 const getRandomInt = () => {
-  const max = 1000;
   const min = 100;
+  const max = 1000;
   return Math.floor(Math.random() * Math.floor(max) + min);
 };
 
